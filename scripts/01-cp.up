@@ -1,0 +1,9 @@
+# set control plane IP variable
+
+CONTROL_PLANE_IP="xxx.xxx.xxx.xx0"
+
+
+
+# Apply config to control plane node
+
+talosctl apply-config --insecure --nodes $CONTROL_PLANE_IP --file controlplane.yaml

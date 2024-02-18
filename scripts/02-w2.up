@@ -1,0 +1,10 @@
+# set control plane IP variable
+
+WORKER1_IP="xxx.xxx.xxx.xx2"
+
+
+
+# Apply config to worker1 node
+
+talosctl apply-config --insecure --nodes ${WORKER1_IP} --file worker.yaml
+
