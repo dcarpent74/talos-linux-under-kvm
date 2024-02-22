@@ -3,9 +3,10 @@ An experiment in trying out Talos Linux in a pinch
 
 ---
 
-I decided to try Talos Linux as an easy Kubernetes setup.  It certainly looks like
-it should be easy.  At first I started with a Windows 10 Laptop with 16 GB of RAM
-and Hyper-V.  I tried to squeeze three VMs on that, which sort of worked.
+I decided to try [Talos Linux](https://www.talos.dev/) as an easy Kubernetes setup.
+It certainly looks like it should be easy.  At first I started with a Windows 10
+Laptop with 16 GB of RAM and Hyper-V.  I tried to squeeze three VMs on that, which
+sort of worked.
 
 I had to search through the other setup instructions as the commands under the
 Hyper-V section seemed to no be quite right (perhaps due to updates to the talosctl
