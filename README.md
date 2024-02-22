@@ -21,6 +21,14 @@ in the KVM section was a little daunting, "Talos is known to work on KVM.
 We don’t yet have a documented guide specific to KVM..." At this point I was in a hurry
 to get something to work, so here it goes...
 
+I used the same TALOS release downloads as I did for Windows / Hyper-V.
+Under the [1.6.4 release](https://github.com/siderolabs/talos/releases/tag/v1.6.4).
+Note the latest has moved up...  Check the [releases page](https://github.com/siderolabs/talos/releases)
+for the latest.  From there I downloaded the [metal-amd64 ISO](https://github.com/siderolabs/talos/releases/download/v1.6.4/metal-amd64.iso)
+and the [linux-amd64 talosctl](https://github.com/siderolabs/talos/releases/download/v1.6.4/talosctl-linux-amd64).
+Again, the links here are the 1.6.4 version which is no longer latest, so you should
+probably refind these under the [releases page](https://github.com/siderolabs/talos/releases).
+
 I saved off scripts for the Windows setup, and then allocated some VMs on a Linux
 KVM server.  In my case I am using OpenSUSE LEAP 15.5 on an old Intel Westermere
 system (L5640) with 24 BG of RAM.  I allocated each VM with 4GB of RAM and 4 VCPUs.
