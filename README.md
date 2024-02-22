@@ -17,9 +17,10 @@ I pretty much had no hope of going further with the cluster than this.  The lapt
 was clearly at it limit, but it worked.
 
 So maybe I should try this on a KVM server where I have more resources...  The comment
-in the KVM section was a little daunting, "Talos is known to work on KVM.
-We don’t yet have a documented guide specific to KVM..." At this point I was in a hurry
-to get something to work, so here it goes...
+in the [KVM section](https://www.talos.dev/v1.6/talos-guides/install/virtualized-platforms/kvm/)
+was a little daunting, "Talos is known to work on KVM. We don’t yet have a documented
+guide specific to KVM..." At this point I was in a hurry to get something to work, so
+here it goes...
 
 I used the same TALOS release downloads as I did for Windows / Hyper-V.
 Under the [1.6.4 release](https://github.com/siderolabs/talos/releases/tag/v1.6.4).
